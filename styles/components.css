@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;900&display=swap');
 @import url("./landingpage.css");
+@import url("./documentation.css");
 
 
 *{
@@ -27,4 +28,18 @@
 ::-webkit-scrollbar-thumb{
  background-color: var(--primary-color);
  border-radius: 5px;
+}
+
+.linkActive{
+    color: var(--primary-color);
+    font-weight: bold; 
+
+}
+
+
+a:hover{
+    color: var(--primary-color);
+    font-weight: bold;
+    /* background-color: var(--hover);  */
+
 }
