@@ -1,0 +1,55 @@
+.documentContainer{
+    display: flex;
+    flex-direction: row;
+    /* background-color: cyan;  */
+    /* border: 2px solid black;  */
+    height: 1000px; 
+    margin-top: 60px;
+    margin-left: 40px; 
+
+
+
+}  
+
+.documentContent{
+    /* background-color: red;  */
+    flex-grow: 1;
+    /* border: 2px solid black;  */
+    text-align: center;
+
+}
+
+.sideBar{ 
+    width: 300px;
+    height: 750px;
+    /* border: 2px solid black;  */
+    background-color: var(--secondary-color);
+
+
+} 
+
+a{
+    text-decoration: none;
+}
+
+
+.nestedList1{
+    line-height: 3.5rem;
+
+
+} 
+
+.listTopic{
+    /* color:  */
+    text-align: center;
+    font-size: 18px;
+}
+
+.listSubTopic{
+    /* margin-left: 4.3rem;  */
+    text-align: center;
+}
+
+
+
+
