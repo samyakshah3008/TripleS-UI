@@ -2,26 +2,21 @@
 
 .button{
     background-color: var(--default-color);
-    color: white;
+    color: var(--off-white);
     min-width: 100px;
     width: max-content;
     padding: 0.8rem 1rem;
     border-radius: 1px;
-    /* border: none; */
     cursor: pointer; 
-    /* transition-property: all; */
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
     font-weight: bold;
-    
-
 } 
 
 .button-primary{
     background-color: var(--primary-color);
     color: var(--secondary-color);
-
 }
 
 .button-secondary{
@@ -35,8 +30,7 @@
 }
 
 .button-warning{
-    background-color: var(--warning-color);
-    
+    background-color: var(--warning-color);  
 }
 
 .button-success{
@@ -46,41 +40,39 @@
 
 .outline{
     color: var(--default-color);
-    background-color: white;
+    background-color: var(--off-white);
 }
 
 .outline-primary{
-    background-color: white;
+    background-color: var(--off-white);
     color: var(--primary-color);
 }
 
 .outline-error{
-    background-color: white;
+    background-color: var(--off-white);
     color: var(--danger-color);
 } 
 
 .outline-warning{
     color: var(--warning-color);
-    background-color: white;
+    background-color: var(--off-white);
 }
 
 .outline-success{
     color: var(--success-color);
-    background-color: white;
+    background-color: var(--off-white);
 }
 
 .button-link{
-    /* background-color: var(--secondary-color); */
     border: 2px solid black;
 }
 
 .button-floating{
     border-radius: 50%; 
-    /* vertical-align: middle;  */
   width: 70px;
   height: 70px; 
   background-color: var(--default-color);
-  color: white;
+  color: var(--off-white);
   cursor: pointer;
 } 
 
