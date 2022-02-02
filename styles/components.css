@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;900&display=swap');
 @import url("./landingpage.css");
 @import url("./documentation.css");
+@import url("./button/button.css");
 
 
 *{
@@ -14,7 +15,17 @@
     --primary-color: #8B5CF6;
     --secondary-color: #ede9fe;
     --hover: #C4B5FD;
-    --paragraph-color: rgba(53, 53, 53, 0.952);
+    --paragraph-color: rgba(53, 53, 53, 0.952); 
+    --default-color: #172B4D;
+    --danger-color: #F44336;
+    --success-color: #4CAF50;
+    --warning-color: #FF9800;
+    --primary-hover: #4F46E5;
+    --secondary-hover: #E5E7EB;
+    --danger-hover: #d31609;
+    --success-hover: #0d8611;
+    --active-hover: #058ce0;
+    --off-white: #F6F9FC;
 } 
 
 ::-webkit-scrollbar{
@@ -43,3 +54,4 @@ a:hover{
     /* background-color: var(--hover);  */
 
 }
+

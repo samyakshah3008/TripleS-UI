@@ -6,6 +6,8 @@
     height: 1000px; 
     margin-top: 60px;
     margin-left: 40px; 
+    /* border: 2px solid black;    */
+
 
 
 
@@ -13,9 +15,16 @@
 
 .documentContent{
     /* background-color: red;  */
-    flex-grow: 1;
-    /* border: 2px solid black;  */
-    text-align: center;
+    flex-grow: 1; 
+    
+    /* border: 2px solid black;    */
+    text-align: center; 
+    flex-direction: column;  
+    display: flex;
+    align-items: center; 
+    height: 200rem; 
+
+    
 
 }
 
@@ -34,7 +43,7 @@ a{
 
 
 .nestedList1{
-    line-height: 3.5rem;
+    line-height: 3.5rem; 
 
 
 } 
@@ -48,8 +57,37 @@ a{
 .listSubTopic{
     /* margin-left: 4.3rem;  */
     text-align: center;
+} 
+
+.documentContentHeader{
+    margin-bottom: 15px;
+    color: var(--primary-color);
 }
 
+.documentContentPara{
+    width: 650px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonVariantTitle{
+    margin-top: 5rem; 
+    color: var(--primary-color);
+}
+
+.btnVariantContainer{
+    height: 100px;
+    /* border: 2px solid black;  */
+    width: 850px;
+    margin-top: 35px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 20px; 
+    align-items: center;
+    background-color: var(--secondary-color); 
+} 
 
 
 
