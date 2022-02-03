@@ -68,5 +68,28 @@ a{
     background-color: var(--secondary-color); 
 } 
 
+.alertVariantTitle{
+    margin-top: 5rem;
+    color: var(--primary-color);
+}
+
+.alertVariantContainer{
+    margin-top: 50px;
+    border: 2px solid var(--primary-color);
+    width: 900px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;  
+    text-align: center; 
+
+}
+
+.documentContentAlert{
+    height: 170rem;   
+}
 
 

@@ -1,0 +1,89 @@
+.badgeVariantTitle{
+    margin-top: 5rem;
+    color: var(--primary-color);
+}
+
+.badgeVariantContainer{
+    margin-top: 50px;
+    border: 3px solid var(--primary-color);
+    width: 900px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;  
+    text-align: center; 
+}
+
+.badge{
+    position: relative; 
+    
+} 
+
+.status{
+    width: 16px;
+    height: 16px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    position: absolute;  
+    left: 80px;
+    top: 75px;
+
+}
+
+.online{
+   
+    background-color: var(--success-color);
+}
+
+.offline{
+    
+    background-color: var(--gray-color);
+
+}
+
+.doNotDisturb{
+    
+    background-color: var(--danger-color);
+
+}
+
+.numberAvatar{
+    /* width: 500px;
+    height: 100px;
+    border-radius: 50%; 
+    background-color: red; */ 
+    padding: 20px;
+}
+
+.fas{
+    font-size: 40px;
+}
+
+.number{
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    background-color: var(--primary-color); 
+    border-radius: 50%;
+   
+
+}
+
+.number2{
+    position: absolute;
+    left: 45px;
+    top: 15px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+
+}
+
+.far{
+    font-size: 40px;
+}
+
+.badgeDocContent{
+    height: 130rem;
+}

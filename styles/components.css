@@ -2,6 +2,9 @@
 @import url("./landingpage.css");
 @import url("./documentation.css");
 @import url("./button/button.css");
+@import url("./alert/alert.css");
+@import url("./avatar/avatar.css");
+@import url("./badge/badge.css"); 
 
 
 *{
@@ -26,6 +29,7 @@
     --success-hover: #0d8611;
     --active-hover: #058ce0;
     --off-white: #F6F9FC;
+    --gray-color: #6B7280;
 } 
 
 ::-webkit-scrollbar{
