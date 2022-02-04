@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,65 +10,153 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
+
 <body>
     <nav class="nav">
         <h1 class="navPills navHeader">TripleS UI</h1>
         <div class="nav-content">
-           <div class="navPills">Docs</div>
-           <a href="#" target="_blank" class="navPills github-docs"><i class="fab fa-github site-icon"></i></a>
+            <div class="navPills">Docs</div>
+            <a href="#" target="_blank" class="navPills github-docs"><i class="fab fa-github site-icon"></i></a>
         </div>
-    </nav> 
+    </nav>
 
 
 
-    <hr> 
+    <hr>
 
-    <div class="documentContainer"> 
+    <div class="documentContainer">
         <!-- SideBar is parent 1 of whole document content -->
-       <div class="sideBar">
-           <div class="nestedList1">
-               <div class="listTopic">
-                   <h3>Get started</h3>
-               </div> 
-               
-               <div class="listSubTopic">
-                   <div><a href="/styles/introduction/introduction.html">Introduction</a></div>
-                   <div><a href="/styles/colors/color.html">Colors</a></div>
-                   <div><a href="/styles/Typography/typography.html">Typography</a></div>
-                   <div><a href="/styles/conclusion/conclusion.html">Conclusion</a></div>
-               </div>
-           </div> 
+        <div class="sideBar">
+            <div class="nestedList1">
+                <div class="listTopic">
+                    <h3>Get started</h3>
+                </div>
 
-           <div class="nestedList1">
-               <div class="listTopic">
-                   <h3>Components</h3>
-               </div> 
-               <div class="listSubTopic">
-   
-                  <div><a href="/styles/avatar/avatar.html">Avatar</a></div>
-                   <div><a href="/styles/alert/alert.html">Alert</a></div>
-                   <div><a href="/styles/button/button.html">Button</a></div>
-                   <div><a href="/styles/badge/badge.html">Badge</a></div>
-                   <div><a href="/styles/card/card.html">Card</a></div>
-                   <div><a href="/styles/image/image.html">Image</a></div>
-                   <div class="linkActive"><a class="linkActive" href="/styles/input/input.html">Input</a></div>
-               </div>
-           </div> 
+                <div class="listSubTopic">
+                    <div><a href="/styles/introduction/introduction.html">Introduction</a></div>
+                    <div><a href="/styles/colors/color.html">Colors</a></div>
+                    <div><a href="/styles/Typography/typography.html">Typography</a></div>
+                    <div><a href="/styles/conclusion/conclusion.html">Conclusion</a></div>
+                </div>
+            </div>
 
-           </div>
-       
+            <div class="nestedList1">
+                <div class="listTopic">
+                    <h3>Components</h3>
+                </div>
+                <div class="listSubTopic">
 
-       <!-- Document Content is child 2 of whole document content  -->
+                    <div><a href="/styles/avatar/avatar.html">Avatar</a></div>
+                    <div><a href="/styles/alert/alert.html">Alert</a></div>
+                    <div><a href="/styles/button/button.html">Button</a></div>
+                    <div><a href="/styles/badge/badge.html">Badge</a></div>
+                    <div><a href="/styles/card/card.html">Card</a></div>
+                    <div><a href="/styles/image/image.html">Image</a></div>
+                    <div class="linkActive"><a class="linkActive" href="/styles/input/input.html">Input</a></div>
+                </div>
+            </div>
 
-       <div class="documentContent">
-           <h2>Introduction to TripleS UI</h2>
-       </div> 
-
-       <!-- End of Document Container  -->
-   </div>
+        </div>
 
 
-    
+        <!-- Document Content is child 2 of whole document content  -->
+
+        <div class="documentContent inputDocContent">
+
+            <h2 class="documentContentHeader">Input</h2>
+
+            <p class="documentContentPara">Inputs are necessary for user interaction with the website. Inputs are used
+                to take information from the user, and then save the data to the server, accordingly.</p>
+
+            <h2 class="inputVariantContainerTitle">Label Inputs</h2>
+            <p class="documentContentPara">Label Input has a label present at the top of the input field. They can be
+                customized to show error error-message, and change color accordingly.</p>
+
+            <div class="inputVariantContainer">
+                <input class="input" type="text" placeholder="Enter your name">
+                <input class="input" type="text" placeholder="You cannot enter your name" disabled>
+                <input class="input input-error" type="text" placeholder="Wrong password">
+
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28139%2C92%2C246%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522You%2520cannot%2520enter%2520your%2520name%2522%2520disabled%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-error%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Wrong%2520password%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="margin-top: 50px; width: 1002px; height: 337px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+
+
+            <h2 class="inputVariantContainerTitle">Radio Inputs</h2>
+            <p class="documentContentPara">Radio buttons allow the user to select one option from a set.</p>
+
+            <div class="inputVariantContainer">
+                <div class="radioBoxContainer">
+                    <input name="flame" type="radio" class="inputCheckBox">
+                    <label for="inputCheckBox" class="label">I am Flame</label>
+                </div>
+
+                <div class="radioBoxContainer">
+                    <input name="flame" type="radio" class="inputCheckBox" disabled>
+                    <label for="inputCheckBox" class="label">I am Flame</label>
+                </div>
+
+                <div class="radioBoxContainer">
+                    <input name="flame" type="radio" class="inputCheckBox">
+                    <label for="inputCheckBox" class="label">I am Flame</label>
+                </div>
+
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28139%2C92%2C246%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520name%253D%2522flame%2522%2520type%253D%2522radio%2522%2520class%253D%2522inputCheckBox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522inputCheckBox%2522%2520class%253D%2522label%2522%253EI%2520am%2520Flame%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520name%253D%2522flame%2522%2520type%253D%2522radio%2522%2520class%253D%2522inputCheckBox%2522%2520disabled%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522inputCheckBox%2522%2520class%253D%2522label%2522%253EI%2520am%2520Flame%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520name%253D%2522flame%2522%2520type%253D%2522radio%2522%2520class%253D%2522inputCheckBox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522inputCheckBox%2522%2520class%253D%2522label%2522%253EI%2520am%2520Flame%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520"
+                style="margin-top: 50px; width: 850px; height: 411px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h2 class="inputVariantContainerTitle">Checkbox Inputs</h2>
+
+            <p class="documentContentPara">Checkboxes allow the user to select one or more items from a set. Checkboxes
+                can be used to turn an option on or off.
+                If you have multiple options appearing in a list, you can preserve space by using checkboxes instead of
+                on/off switches. If you have a single option, avoid using a checkbox and use an on/off switch instead.
+            </p>
+
+
+            <div class="inputVariantContainer">
+                <div class="checkBoxContainer">
+                    <input type="checkbox" class="inputCheckBox">
+                    <label for="inputCheckBox" class="label">I am Flame</label>
+                </div>
+
+                <div class="checkBoxContainer">
+                    <input type="checkbox" class="inputCheckBox" disabled>
+                    <label for="inputCheckBox" class="label">I am Flame</label>
+                </div>
+
+                <div class="checkBoxContainer">
+                    <input type="checkbox" class="inputCheckBox">
+                    <label for="inputCheckBox" class="label">I am Flame</label>
+                </div>
+
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28139%2C92%2C246%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522inputCheckBox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522inputCheckBox%2522%2520class%253D%2522label%2522%253EI%2520am%2520Flame%253C%252Flabel%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522inputCheckBox%2522%2520disabled%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522inputCheckBox%2522%2520class%253D%2522label%2522%253EI%2520am%2520Flame%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522inputCheckBox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522inputCheckBox%2522%2520class%253D%2522label%2522%253EI%2520am%2520Flame%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520"
+                style="margin-top: 50px; width: 833px; height: 411px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+        </div>
+
+        <!-- End of Document Container  -->
+    </div>
+
+
+
 
 </body>
+
 </html>

@@ -5,6 +5,9 @@
 @import url("./alert/alert.css");
 @import url("./avatar/avatar.css");
 @import url("./badge/badge.css"); 
+@import url("./image/image.css");
+@import url("./input/input.css");
+@import url("./card/card.css");
 
 
 *{
@@ -58,3 +61,10 @@ a:hover{
 
 }
 
+.no-border{
+    border: none;
+}
+/* 
+::placeholder{
+    border: none;
+} */
