@@ -1,0 +1,55 @@
+.imageVariantContainer{
+    margin-top: 50px;
+    border: 2px solid var(--primary-color);
+    width: 400px;
+    /* height: 300px;  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    gap: 25px;
+    justify-content: center;
+    align-items: center;  
+    text-align: center; 
+    /* background-color: var(--secondary-color);  */
+}
+
+.imageVariantContainerTitle{
+    margin-top: 5rem;
+    color: var(--primary-color);
+}
+
+.image-square{
+  height: 140px;
+  width: 140px;
+  margin: 10px;
+  object-fit: cover; 
+  /* min-height: 100vh;  */
+  background-color: var(--primary-color);
+}
+
+.image-responsive{
+    width: 100%;
+  height: auto;
+  object-fit: cover; 
+
+}
+
+.image-circle{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: var(--primary-color); 
+  object-fit: cover; 
+
+}
+
+.image-responsive{
+    max-width: 100%;
+    height: auto;
+    /* background-color: var(--primary-color);  */
+} 
+
+.imageDocContent{
+    height: 120rem;
+}
+
