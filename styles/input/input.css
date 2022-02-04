@@ -1,0 +1,64 @@
+.inputVariantContainer{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 300px;
+    border: 2px solid var(--primary-color);
+    margin-top: 40px; 
+    justify-content: center;
+    padding: 40px;
+    /* align-items: center; */
+
+}
+
+.inputVariantContainerTitle{
+    margin-top: 5rem;
+    color: var(--primary-color);
+} 
+
+.inputDocContent{
+    height: 190rem;
+
+} 
+
+.input{
+    height: 50px;
+   outline: none; 
+   
+}
+
+.input-error{
+    border: 2px solid var(--danger-color);
+    color: var(--danger-color);
+
+}
+
+.input-error::placeholder{
+    color: var(--danger-color);
+}
+
+.input:disabled{
+    cursor: not-allowed;
+}
+
+.input-flex{
+    /* display: flex;  */
+}
+
+/* .inputVariantContainer2{
+    width: 800px;
+    height: 300px;
+    border: 2px solid var(--primary-color);
+    margin-top: 40px; 
+    padding: 40px;
+
+} */
+
+/* .checkBoxContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}  */
+
