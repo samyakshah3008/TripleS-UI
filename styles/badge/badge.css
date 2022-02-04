@@ -55,11 +55,11 @@
     border-radius: 50%; 
     background-color: red; */ 
     padding: 20px;
+    font-size: 40px;
+
+
 }
 
-.fas{
-    font-size: 40px;
-}
 
 .number{
     position: absolute;
@@ -80,9 +80,6 @@
 
 }
 
-.far{
-    font-size: 40px;
-}
 
 .badgeDocContent{
     height: 130rem;
