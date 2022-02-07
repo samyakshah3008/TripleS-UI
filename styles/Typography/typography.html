@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,65 +10,128 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
+
 <body>
     <nav class="nav">
         <h1 class="navPills navHeader">TripleS UI</h1>
         <div class="nav-content">
-           <div class="navPills">Docs</div>
-           <a href="#" target="_blank" class="navPills github-docs"><i class="fab fa-github site-icon"></i></a>
+            <div class="navPills">Docs</div>
+            <a href="#" target="_blank" class="navPills github-docs"><i class="fab fa-github site-icon"></i></a>
         </div>
-    </nav> 
+    </nav>
 
 
 
-    <hr> 
+    <hr>
 
-    <div class="documentContainer"> 
+    <div class="documentContainer">
         <!-- SideBar is parent 1 of whole document content -->
-       <div class="sideBar">
-           <div class="nestedList1">
-               <div class="listTopic">
-                   <h3>Get started</h3>
-               </div> 
-               
-               <div class="listSubTopic">
-                <div><a href="/styles/introduction/introduction.html">Introduction</a></div>
-                <div><a href="/styles/colors/color.html">Colors</a></div>
-                <div class="linkActive"><a class="linkActive" href="/styles/Typography/typography.html">Typography</a></div>
-                <div><a href="/styles/conclusion/conclusion.html">Conclusion</a></div>
-               </div>
+        <div class="sideBar">
+            <div class="nestedList1">
+                <div class="listTopic">
+                    <h3>Get started</h3>
+                </div>
+
+                <div class="listSubTopic">
+                    <div><a href="/styles/introduction/introduction.html">Introduction</a></div>
+                    <div><a href="/styles/colors/color.html">Colors</a></div>
+                    <div class="linkActive"><a class="linkActive"
+                            href="/styles/Typography/typography.html">Typography</a></div>
+                    <div><a href="/styles/conclusion/conclusion.html">Conclusion</a></div>
+                </div>
+            </div>
+
+            <div class="nestedList1">
+                <div class="listTopic">
+                    <h3>Components</h3>
+                </div>
+                <div class="listSubTopic">
+
+                    <div><a href="/styles/avatar/avatar.html">Avatar</a></div>
+                    <div><a href="/styles/alert/alert.html">Alert</a></div>
+                    <div><a href="/styles/button/button.html">Button</a></div>
+                    <div><a href="/styles/badge/badge.html">Badge</a></div>
+                    <div><a href="/styles/card/card.html">Card</a></div>
+                    <div><a href="/styles/image/image.html">Image</a></div>
+                    <div><a href="/styles/input/input.html">Input</a></div>
+                    <div><a href="/styles/toast/toast.html">Toast</a></div>
+                    <div><a href="/styles/list/list.html">Lists</a></div> 
+                    <div> <a href="/styles/navigation/nav.html">Navigation</a>  </div>
+                    <div> <a href="/styles/modal/modal.html">Modal</a> </div>
+                    <div><a href="/styles/rating/rating.html">Rating</a></div>
+                    <div><a href="/styles/grid/grid.html">Grid</a></div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Document Content is child 2 of whole document content  -->
+
+        <div class="documentContent">
+            <h2 class="documentContentHeader">Text Utilities</h2>
+            <p class="documentContentPara">Documentation and examples for TripleS typography, including global settings,
+                headings, body text, lists, and more.</p>
+
+            <h2 class="typographyVariantTitle">Headings</h2>
+
+            <div class="typographyVariantContainer">
+                <h1>TripleS Heading</h1>
+                <h2>TripleS Heading</h2>
+                <h3>TripleS Heading</h3>
+                <h4>TripleS Heading</h4>
+                <h5>TripleS Heading</h5>
+                <h6>TripleS Heading</h6>
+
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28139%2C92%2C246%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253E%2520TripleS%2520Heading%2520%253C%252Fh1%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%2520TripleS%2520Heading%2520%253C%252Fh2%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253E%2520TripleS%2520Heading%2520%253C%252Fh3%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E%2520TripleS%2520Heading%2520%253C%252Fh4%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253E%2520TripleS%2520Heading%2520%253C%252Fh5%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253E%2520TripleS%2520Heading%2520%253C%252Fh6%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                style="margin-top: 50px; width: 597px; height: 355px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h2 class="typographyVariantTitle">Font Family</h2> 
+
+            <p class="documentContentPara">TripleS uses 'Nunito Sans', sans-serif, as its default font, which is a free font available at Google Fonts.</p> 
+
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28139%2C92%2C246%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2540import%2520url%28%27https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253Ffamily%253DNunito%252BSans%253Awght%2540200%253B400%253B900%2526display%253Dswap%27%29%253B%2520%2520%2520%2520%250A%2520%2520%250A%2520%2520%250A"
+  style="margin-top: 50px; width: 620px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>  
+
+           <h2 class="typographyVariantTitle">Center text</h2> 
+        
+           <div class="typographyVariantContainer2">
+               <div class="text-center">I am at the center</div>
            </div> 
 
-           <div class="nestedList1">
-               <div class="listTopic">
-                   <h3>Components</h3>
-               </div> 
-               <div class="listSubTopic">
-   
-                  <div><a href="/styles/avatar/avatar.html">Avatar</a></div>
-                   <div><a href="/styles/alert/alert.html">Alert</a></div>
-                   <div><a href="/styles/button/button.html">Button</a></div>
-                   <div><a href="/styles/badge/badge.html">Badge</a></div>
-                   <div><a href="/styles/card/card.html">Card</a></div>
-                   <div><a href="/styles/image/image.html">Image</a></div>
-                   <div><a href="/styles/input/input.html">Input</a></div>
-               </div>
+           <h2 class="typographyVariantTitle">Gray and small text</h2> 
+
+           <div class="typographyVariantContainer3">
+                <div class="text gray-text">I am Gray</div>
+                <div class="text small-text">I am Small</div>
            </div> 
 
-           </div>
-       
 
-       <!-- Document Content is child 2 of whole document content  -->
-
-       <div class="documentContent">
-           <h2>Introduction to TripleS UI</h2>
-       </div> 
-
-       <!-- End of Document Container  -->
-   </div>
+           <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28139%2C92%2C246%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522typographyVariantContainer2%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-center%2522%253EI%2520am%2520at%2520the%2520center%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%250A%250A%2509%2509%2520%253Cdiv%2520class%253D%2522text%2520gray-text%2522%253EI%2520am%2520Gray%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2520small-text%2522%253EI%2520am%2520Small%253C%252Fdiv%253E%250A%250A%250A%250A"
+  style="margin-top: 50px;  width: 749px; height: 411px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
 
 
-    
+
+        </div>
+
+        <!-- End of Document Container  -->
+    </div>
+
+
+
 
 </body>
+
 </html>

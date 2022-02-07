@@ -1,0 +1,196 @@
+.cardVariantTitle{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+}
+
+.cardVariantContainer{
+    width: 900px; 
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);  
+    gap: 20px;
+    
+    
+}
+
+.card{
+    border: 2px solid var(--primary-color); 
+    width: 350px;  
+    text-align: left; 
+    height: auto; 
+    padding: 1rem;    
+    border-radius: 0.25rem; 
+
+    
+}
+
+.card-shadow{
+    box-shadow: 2px 2px 20px 1px var(--primary-color);
+    
+
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dismiss-icon{
+    color: var(--primary-color);
+    cursor: pointer;  
+}
+
+.card-image{
+    width: 100%; 
+    height: 90%; 
+    object-fit: cover;
+
+} 
+
+.cardCollectionVerticalVariant{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.card-title{
+    padding-bottom: 2rem;
+    font-weight: bold;
+    
+} 
+
+.e-commerce{
+    display: flex;
+    flex-direction: column; 
+    padding: 0rem;
+    border-radius: 0.25rem; 
+
+    
+}
+
+.no-click:disabled{
+    cursor: not-allowed;
+
+}
+
+
+
+
+
+.container2{
+    padding: 0.5rem 0.5rem; 
+    margin-bottom: 0.5rem;
+
+}
+
+.price{
+    display: flex;
+    gap: 1rem;
+}
+
+.container3{
+    /* background-color: var(--secondary-color);  */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+
+    
+
+}
+
+
+
+.button1{
+    width: 95%;
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    color: var(--white-color); 
+    cursor: pointer;
+    border-radius: 0.25rem; 
+    border: 2px solid var(--primary-color);
+}
+
+.button2{
+    padding: 0.5rem;
+    margin-top: 4px;
+    width: 95%;
+    border-radius: 0.25rem; 
+    border: 2px solid var(--primary-color);
+    background-color: var(--white-color);
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+}
+
+.button2:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+} 
+
+.discount-percent{
+    color: var(--success-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.discount-price{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card-description{
+    margin-bottom: 1.5rem;
+}
+
+.image-badge{
+    position: absolute;
+    left: 0px;
+    top: 15px;
+    background-color: var(--success-color);
+    padding: 0.5rem;
+    color: var(--white-color);
+}
+
+.badge-card{
+    position: relative;
+    
+}
+
+.blur{
+    opacity: 0.5;
+}
+
+.no-blur{
+    background-color: var(--danger-color);
+}
+
+.horizontal-img{
+    width: 50%;
+}
+
+.horizontal{
+    position: relative;
+}
+
+.horizontal-content{
+    position: absolute;
+    top: 2.5rem;
+    width: 50%;
+    left: 10rem;
+    text-align: center;
+    
+}
+
+.no-display{
+    display: none;
+}
+
+
+
+
