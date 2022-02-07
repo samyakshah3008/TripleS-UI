@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="navContainer">
+        <div class="navSubContainer">
+          <div class="navLogo">TripleS Store</div>
+          <div><a href="#">Home</a></div>
+          <div><a href="#">Shop Now</a></div>
+        </div>
+        <div class="navSubContainer">
+          <button class="navSearchBtn"><i class="fa fa-search"></i></button>
+          <input class="navInput" type="text" placeholder="Type to search" />
+        </div>
+        <div class="navSubContainer">
+          <div class="badge">
+            <span
+              ><i class="fas fa-user-circle numberAvatar nav-pills"></i
+            ></span>
+          </div>
+
+          <div class="badge">
+            <span><i class="far fa-heart numberAvatar nav-pills"></i></span>
+            <div class="number3">0</div>
+          </div>
+
+          <div class="badge">
+            <i class="fas fa-shopping-cart numberAvatar nav-pills"></i>
+            <div class="number3">0</div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="documentContainer">
+      <!-- SideBar is parent 1 of whole document content -->
+      <div class="sideBar">
+        <div class="nestedList1">
+          <div class="listTopic">
+            <h3>Get started</h3>
+          </div>
+
+          <div class="listSubTopic">
+            <div>
+              <a href="/styles/introduction/introduction.html">Introduction</a>
+            </div>
+            <div><a href="/styles/colors/color.html">Colors</a></div>
+            <div>
+              <a  href="/styles/Typography/typography.html"
+                >Typography</a
+              >
+            </div>
+            <div>
+              <a href="/styles/conclusion/conclusion.html">Conclusion</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nestedList1">
+          <div class="listTopic">
+            <h3>Components</h3>
+          </div>
+          <div class="listSubTopic">
+            <div><a href="/styles/avatar/avatar.html">Avatar</a></div>
+            <div><a href="/styles/alert/alert.html">Alert</a></div>
+            <div><a href="/styles/button/button.html">Button</a></div>
+            <div><a href="/styles/badge/badge.html">Badge</a></div>
+            <div><a href="/styles/card/card.html">Card</a></div>
+            <div><a href="/styles/image/image.html">Image</a></div>
+            <div><a href="/styles/input/input.html">Input</a></div>
+            <div><a href="/styles/toast/toast.html">Toast</a></div>
+            <div><a href="/styles/list/list.html">Lists</a></div>
+            <div class="linkActive"><a class="linkActive" href="/styles/navigation/nav.html">Navigation</a></div> 
+            <div> <a href="/styles/modal/modal.html">Modal</a> </div>
+                    <div><a href="/styles/rating/rating.html">Rating</a></div>
+                    <div><a href="/styles/grid/grid.html">Grid</a></div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Document Content is child 2 of whole document content  -->
+
+      <div class="documentContent">
+        <h2 class="documentContentHeader">Navigation bar</h2> 
+
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28139%2C92%2C246%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navContainer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navSubContainer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navLogo%2522%253ETripleS%2520Store%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ca%2520href%253D%2522%2523%2522%253EHome%253C%252Fa%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ca%2520href%253D%2522%2523%2522%253EShop%2520Now%253C%252Fa%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navSubContainer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522navSearchBtn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-search%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522navInput%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Type%2520to%2520search%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navSubContainer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-user-circle%2520numberAvatar%2520nav-pills%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522far%2520fa-heart%2520numberAvatar%2520nav-pills%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number3%2522%253E0%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520numberAvatar%2520nav-pills%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number3%2522%253E0%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="margin-top: 50px; width: 866px; height: 390px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      </div>
+
+      <!-- End of Document Container  -->
+    </div>
+  </body>
+</html>
