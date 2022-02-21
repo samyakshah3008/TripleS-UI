@@ -17,6 +17,8 @@
 @import url("./modal/modal.css");
 @import url("./rating/rating.css");
 @import url("./grid/grid.css");
+@import url("./introduction/introduction.css");
+@import url("./conclusion/conclusion.css");
 
 
 *{
