@@ -1,0 +1,63 @@
+.modalVariantContainer{
+    width: 31.25rem;
+    border: 2px solid black;
+    height: auto;
+    padding: 0.75rem;
+    margin-top: 3rem;
+
+    
+}
+
+.active-modal{
+    display: block;  
+    
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+
+.btn-modal-active{
+    margin-top: 10px;
+}
+
+.modal-content{
+    text-align: left; 
+
+
+}
+
+
+.modal-btns{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    gap: 10px;
+
+}
+
+.login-btn{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem; 
+    border: 2px solid var(--primary-color);
+
+}
+
+.close-btn{
+    cursor: pointer;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem; 
+    border: 2px solid var(--primary-color);
+
+}
+

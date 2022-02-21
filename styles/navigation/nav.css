@@ -81,3 +81,97 @@
     color: var(--white-smoke);
 }
 
+.nav-container{
+    border-bottom: 2px solid var(--primary-color);
+    height: auto; 
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    gap: 10rem;  
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.nav-btn-container{
+    display: flex;
+    gap: 2rem; 
+}
+
+.nav-logo{
+    color: var(--primary-color);
+    font-weight: bold;  
+} 
+
+.nav-input{
+    width: 20rem;
+    padding: 7px;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    outline: none;
+}
+
+.input-container{
+    position: relative;
+}
+
+.search-btn{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.log-in-container{
+    position: relative;
+    padding: 1rem;    
+}
+
+.log-in{
+    position: absolute;
+    font-size: 0.7rem;
+    bottom: 0;
+    right: 10px;
+}
+
+.number-badge{
+    top: 10px;
+    position: absolute;
+    right: 8px;
+    border-radius: 50%; 
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: var(--secondary-color);
+}
+
+.wish-list-container{
+    position: relative;
+    padding: 1rem;
+}
+
+.wish-list{
+    position: absolute;
+    font-size: 0.7rem;
+    bottom: 0;
+    right: 2px;
+}
+
+.cart-container{
+    position: relative;
+    padding: 1rem;
+}
+
+.cart{
+    position: absolute;
+    font-size: 0.7rem;
+    bottom: 0;
+    right: 12px;
+}
+
+

@@ -1,0 +1,11 @@
+.ratingContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.125rem;
+    gap: 12px;
+    font-size: 1.25rem;
+}
+
+.selected-star{
+    color: var(--warning-color);
+}

@@ -13,7 +13,8 @@
 
 <body>
     <nav class="nav">
-        <h1 class="navPills navHeader">TripleS UI</h1>
+        <a href="/index.html"><h1 class="navPills navHeader">TripleS UI</h1></a>
+
         <div class="nav-content">
             <div class="navPills">Docs</div>
             <a href="#" target="_blank" class="navPills github-docs"><i class="fab fa-github site-icon"></i></a>
@@ -69,7 +70,36 @@
         <!-- Document Content is child 2 of whole document content  -->
 
         <div class="documentContent">
-            <h2>Introduction to TripleS UI</h2>
+            
+            <h2 class="documentContentHeader">Modal</h2>
+
+<p class="documentContentPara">Modal Use when you want to interrupt a user's from current task to catch the user's full attention. We have a basic modal. You can use this to attract you target users. It has one button to active modal and one button is for close modal.</p> 
+
+
+<div id="modal-box" class="modalVariantContainer modal-box">
+
+    <div class="modal" >
+        <div class="modal-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero sequi laborum magni? Harum, quod! Veniam magni nulla quaerat autem deleniti.
+        </div>
+
+        <div class="modal-btns">
+            <button class="login-btn">Log in</button>
+            <button class="close-btn" id="close-modal">Close</button>
+        </div> 
+    </div>
+</div>  
+
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28144%2C19%2C254%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Libero%2520sequi%2520laborum%2520magni%253F%2520Harum%252C%2520quod%21%2520Veniam%2520magni%2520nulla%2520quaerat%2520autem%2520deleniti.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522login-btn%2522%253ELog%2520in%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-btn%2522%2520id%253D%2522close-modal%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="margin-top: 50px; width: 1024px; height: 375px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+
+
+
         </div>
 
         <!-- End of Document Container  -->
@@ -79,5 +109,7 @@
 
 
 </body>
+
+    <script src="./modal.js"></script>
 
 </html>
