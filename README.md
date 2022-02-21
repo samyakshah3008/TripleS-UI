@@ -9,7 +9,16 @@ TripleSUI is the Best open source free framework to build attractive UI design. 
 
 This is made with pure HTML and CSS
 
-</br>
+</br> 
+
+## Installation<br>
+To Get styled component, you have put this link inside head tag of your web page.<br>
+```html
+<link rel="stylesheet" href="https://triples-ui.netlify.app/style.css">     
+
+
+ 
+```
 
 ## Live Project Walkthrough
 
